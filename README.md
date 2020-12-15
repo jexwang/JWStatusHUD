@@ -1,3 +1,3 @@
 # JWStatusHUD
 
-A description of this package.
+A simple indicator of loading, success and failure.
