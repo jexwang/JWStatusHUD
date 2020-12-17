@@ -35,7 +35,7 @@ struct JWStatusHUD: View {
 // MARK: - Private functions
 private extension JWStatusHUD {
     
-    func getStatusView(imageName: String, message: String?) -> some View {
+    func getStatusView(imageName: String, message: LocalizedStringKey?) -> some View {
         VStack(spacing: 8) {
             Image(systemName: imageName)
                 .font(.largeTitle)
