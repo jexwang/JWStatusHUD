@@ -21,7 +21,7 @@ extension UIWindow {
         windowLevel = .alert - 1
         
         let hostingController = UIHostingController(rootView: view)
-        hostingController.view.backgroundColor = .clear
+        hostingController.view.backgroundColor = UIColor(white: 0, alpha: 0.6)
         rootViewController = hostingController
         
         makeKeyAndVisible()

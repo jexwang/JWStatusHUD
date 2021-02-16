@@ -26,7 +26,6 @@ public extension View {
         
         return self
             .disabled(item.wrappedValue != nil)
-            .blur(radius: item.wrappedValue != nil ? 3 : 0)
     }
     
 }
