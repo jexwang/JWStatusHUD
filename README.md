@@ -24,7 +24,3 @@ and completion:
 JWStatusHUDItem(type: .success, message: "Login Succeeded", dismissAfter: 1) {
 	print("Already login")
 }
-```
-
-But now, I use **ZStack** to achieve this function, which is not a good way...
-In the future, I want to use Window for this HUD.
